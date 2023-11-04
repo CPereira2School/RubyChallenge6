@@ -5,5 +5,8 @@ Rails.application.routes.draw do
 
   # resources :customers, only: %i[index]
   get '/', to: 'customers#index'
+  get '/customers/missing_email', to: 'customers#missing_email'
+  get '/customers/alphabetized', to: 'customers#alphabetized'
+
   # root "articles#index"
 end
