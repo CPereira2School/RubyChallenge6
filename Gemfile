@@ -34,6 +34,12 @@ gem 'cancancan'
 gem 'draper'
 gem 'pundit'
 
+# Use SCSS for stylesheets
+gem 'sass-rails', '>= 6'
+
+gem 'bootstrap', '~> 5.3.0'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
